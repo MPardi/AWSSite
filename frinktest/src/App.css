@@ -1,0 +1,30 @@
+.App-header {
+  background-color: #03396c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Mid-cont {
+  flex: 1 1 auto;
+}
+
+.progress {
+  height: 70px;
+}
+
+.vert-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.progress-bar {
+  height: 20px;
+}
