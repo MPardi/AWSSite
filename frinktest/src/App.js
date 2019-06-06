@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import Button from 'react-bootstrap/Button'
 import Simps from './Simps';
 
 class App extends React.Component {
@@ -39,8 +40,9 @@ class App extends React.Component {
         <div className="container mt-5">
           <ProgressBar className="progress-bar" variant="warning" now={this.state.percent} />
           </div>
-        <button onClick={(e) => this.fillBar(e)} type="button" className="btn btn-lg btn-danger mt-5">Start Progress</button></div>
-    }
+          <Button onClick={(e) => this.fillBar(e)} variant="danger" size="lg" className="mt-5">Get A Simpsons Quote</Button>
+        </div>
+  }
     return(
       <div className="App-header">
         <div className="container Mid-cont text-center">
